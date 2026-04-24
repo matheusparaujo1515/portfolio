@@ -9,16 +9,15 @@ import Link from "next/link";
 import { FiArrowLeft, FiGithub } from "react-icons/fi";
 import { FaCheckCircle } from "react-icons/fa";
 
-export default function AnaliseCredito() {
+export default function DeteccaoResiduos() {
   const { t } = useTranslation();
 
   const insights = [
-    "projetos.projeto2.insight1",
-    "projetos.projeto2.insight2",
-    "projetos.projeto2.insight3",
-    "projetos.projeto2.insight4",
-    "projetos.projeto2.insight5",
-    "projetos.projeto2.insight6",
+    "projetos.projeto3.insight1",
+    "projetos.projeto3.insight2",
+    "projetos.projeto3.insight3",
+    "projetos.projeto3.insight4",
+    "projetos.projeto3.insight5",
   ];
 
   return (
@@ -36,11 +35,11 @@ export default function AnaliseCredito() {
             </Link>
 
             <h1 className="text-3xl md:text-4xl font-bold text-stone-900 dark:text-stone-50 mb-6">
-              {t("projetos.projeto2.titulo_pagina")}
+              {t("projetos.projeto3.titulo_pagina")}
             </h1>
 
             <div className="flex flex-wrap gap-2 mb-8">
-              {t("projetos.projeto2.tecnologias")
+              {t("projetos.projeto3.tecnologias")
                 .split(", ")
                 .map((tech) => (
                   <span
@@ -53,8 +52,8 @@ export default function AnaliseCredito() {
             </div>
 
             <div className="bg-white dark:bg-stone-800 rounded-xl p-8 shadow-sm border border-stone-100 dark:border-stone-700 mb-8">
-              <p className="text-stone-600 dark:text-stone-300 leading-relaxed whitespace-pre-line">
-                {t("projetos.projeto2.descricao")}
+              <p className="text-stone-600 dark:text-stone-300 leading-relaxed">
+                {t("projetos.projeto3.descricao")}
               </p>
             </div>
 
@@ -72,18 +71,9 @@ export default function AnaliseCredito() {
               </ul>
             </div>
 
-            <div className="bg-white dark:bg-stone-800 rounded-xl p-8 shadow-sm border border-stone-100 dark:border-stone-700 mb-8">
-              <h2 className="text-xl font-semibold text-stone-900 dark:text-stone-100 mb-4">
-                {t("projetos.projeto2.resultados_titulo")}
-              </h2>
-              <p className="text-stone-600 dark:text-stone-300 leading-relaxed whitespace-pre-line">
-                {t("projetos.projeto2.resultados")}
-              </p>
-            </div>
-
             <div className="flex gap-4">
               <a
-                href="https://github.com/matheusparaujo1515"
+                href="https://github.com/matheusparaujo1515/Criacao-base-de-dados-e-treinamento-rede-YOLO"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-pistache text-white rounded-lg hover:bg-pistache-dark transition-colors font-medium"
@@ -92,7 +82,7 @@ export default function AnaliseCredito() {
                 GitHub
               </a>
               <Link
-                href="/#projetos"
+               href="/#projetos"
                 className="inline-flex items-center gap-2 px-6 py-3 border border-stone-300 dark:border-stone-600 text-stone-700 dark:text-stone-200 rounded-lg hover:border-pistache dark:hover:border-pistache hover:text-pistache-dark dark:hover:text-pistache-light transition-colors font-medium"
               >
                 <FiArrowLeft size={18} />

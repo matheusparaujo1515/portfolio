@@ -22,57 +22,83 @@
   "experiencia": {
     "titulo": "Experiencia Profesional",
     "atual": "Actual",
-    "cargo1": "Analista de Datos Semi-Senior",
-    "empresa1": "PROCERGS — Cia. de Procesamiento de Datos del RS",
-    "periodo1": "Feb 2024 — Presente",
-    "desc1_item1": "Análisis avanzado con Python y SQL, más allá de ETL — incluyendo modelado predictivo y automatización inteligente",
-    "desc1_item2": "Desarrollo de dashboards ejecutivos en Power BI para toma de decisiones estratégicas",
-    "desc1_item3": "Implementación de modelos de Machine Learning para clasificación y previsión",
-    "desc1_item4": "Gobernanza de TI y conformidad con frameworks regulatorios",
-    "cargo2": "Analista de Gobernanza de TI",
-    "empresa2": "PROCERGS",
-    "periodo2": "Jun 2022 — Feb 2024",
-    "desc2_item1": "Gestão de procesos de TI alinhados con frameworks ITIL y COBIT",
-    "desc2_item2": "Desarrollo de políticas de seguridad de la información y cumplimiento",
-    "desc2_item3": "Coordinación de auditorías internas y gestión de riesgos corporativos",
-    "desc2_item4": "Mapeo y optimización de procesos operacionales",
-    "cargo3": "Técnico Administrativo",
-    "empresa3": "PROCERGS",
-    "periodo3": "May 2019 — Jun 2022",
-    "desc3_item1": "Soporte a la gestión administrativa y control presupuestario",
-    "desc3_item2": "Análisis de contratos y gobernanza de proveedores",
-    "desc3_item3": "Elaboración de informes gerenciales e indicadores de desempeño"
+    "cargo1": "Científico de Datos",
+    "empresa1": "Educar Games",
+    "periodo1": "Ene 2024 — Feb 2026",
+    "desc1_item1": "Recopilación y extracción de datos en bases de datos SQL en entornos AWS, Azure y Oracle.",
+    "desc1_item2": "Tratamiento, limpieza y análisis exploratorio de datos con Python, Pandas y Power Query.",
+    "desc1_item3": "Desarrollo de dashboards y reportes interactivos en Power BI, Metabase, Grafana y Jupyter Notebook.",
+    "desc1_item4": "Generación y presentación de insights estratégicos para apoyar decisiones basadas en datos.",
+    "desc1_item5": "Participación en proyectos de implementación y automatización de tareas utilizando PyAutoGUI.",
+    "desc1_item6": "Creación de reportes y soporte a usuarios finales.",
+    "cargo2": "Oficinista de Crédito",
+    "empresa2": "Bancoob",
+    "periodo2": "Jul 2019 — Jul 2020",
+    "desc2_item1": "Conciliación contable de transacciones diarias y soporte a rutinas de crédito.",
+    "desc2_item2": "Análisis de registros gráficos, contratos y expedientes de clientes.",
+    "desc2_item3": "Emisión, verificación y corrección de cartas de liquidación.",
+    "desc2_item4": "Apoyo en procesos de renegociación y control documental."
   },
   "educacao": {
     "titulo": "Formación Académica",
     "curso1": "Análisis y Desarrollo de Sistemas",
-    "instituicao1": "Universidade Estácio de Sá",
-    "periodo1": "2024 — En curso",
+    "instituicao1": "Faculdade Descomplica",
+    "periodo1": "2025 — Actualidad",
     "andamento": "En curso",
-    "curso2": "Posgrado en Gobernanza de TI",
-    "instituicao2": "UniCEUB",
-    "periodo2": "Completado",
-    "curso3": "Licenciatura en Administración",
-    "instituicao3": "UniCEUB",
-    "periodo3": "Completado"
+    "curso2": "Ciencia de Datos",
+    "instituicao2": "EBAC",
+    "periodo2": "2023 — 2024",
+    "curso3": "Posgrado en Gobernanza de TI",
+    "instituicao3": "Senac-DF",
+    "periodo3": "2021 — 2022",
+    "curso4": "Licenciatura en Administración",
+    "instituicao4": "UDF",
+    "periodo4": "2017 — 2020"
   },
   "certificacoes": {
     "titulo": "Cursos y Certificaciones",
     "itens": {
-      "sc900": {
-        "titulo": "Microsoft Security, Compliance, and Identity Fundamentals (SC-900)",
-        "emissor": "Microsoft",
-        "data": "2026"
+      "ebac": {
+        "titulo": "Ciencia de Datos",
+        "emissor": "EBAC — Escuela Británica de Artes Creativas y Tecnología",
+        "data": "Jun 2023 — Oct 2024",
+        "tags": "Python, SQL, Estadística, Machine Learning, Pandas, Scikit-learn, Streamlit"
       },
-      "ai300": {
-        "titulo": "Microsoft Azure AI Fundamentals (AI-300)",
-        "emissor": "Microsoft",
-        "data": "2026"
+      "randstad": {
+        "titulo": "Bootcamp Randstad — Análisis de Datos",
+        "emissor": "DIO",
+        "data": "2025",
+        "tags": "Análisis de Datos, ETL, Python, Visualización de Datos"
       },
-      "aws": {
-        "titulo": "AWS Academy Cloud Foundations",
-        "emissor": "AWS Academy",
-        "data": "2025"
+      "bairesdev": {
+        "titulo": "Bootcamp BairesDev — Machine Learning Practitioner",
+        "emissor": "DIO",
+        "data": "2025",
+        "tags": "Python, Machine Learning, Inteligencia Artificial, Visión Computacional"
+      },
+      "powerbi": {
+        "titulo": "Power BI Completo — De Básico a Avanzado",
+        "emissor": "Udemy",
+        "data": "2024",
+        "tags": "Power BI, Dashboards, Modelado de Datos, Análisis Exploratorio"
+      },
+      "quode": {
+        "titulo": "Monitoreo Avanzado con Prometheus y Grafana",
+        "emissor": "Quode",
+        "data": "2025",
+        "tags": "Grafana, Monitoreo, Métricas, Observabilidad"
+      },
+      "ibm_ai": {
+        "titulo": "Artificial Intelligence Fundamentals",
+        "emissor": "IBM",
+        "data": "2024",
+        "tags": "Inteligencia Artificial, Python, Fundamentos de IA"
+      },
+      "ibm_web": {
+        "titulo": "Web Development with Python",
+        "emissor": "IBM",
+        "data": "2024",
+        "tags": "Python, Desarrollo Web, Aplicaciones"
       }
     }
   },
@@ -80,27 +106,35 @@
     "titulo": "Habilidades",
     "python": {
       "nome": "Python",
-      "desc": "Más allá de ETL: modelado predictivo, automatización inteligente, web scraping, APIs y Machine Learning en producción"
+      "desc": "Análisis de datos, automatización, APIs, web scraping, Machine Learning y desarrollo de aplicaciones con bibliotecas como Pandas, NumPy y Scikit-learn."
     },
     "sql": {
-      "nome": "SQL",
-      "desc": "Consultas complejas, optimización de rendimiento, CTEs, window functions y modelado relacional avanzado"
+      "nome": "SQL & NoSQL",
+      "desc": "Consultas complejas, modelado relacional, optimización de queries, manipulación de datos en PostgreSQL/AWS Athena y bases de datos NoSQL como MongoDB."
     },
     "powerbi": {
       "nome": "Power BI",
-      "desc": "Dashboards ejecutivos, DAX avanzado, modelado semántico e integración con múltiples fuentes"
+      "desc": "Dashboards ejecutivos, modelado de datos, DAX, Power Query, análisis exploratorio e integración con múltiples fuentes de datos."
     },
     "ml": {
       "nome": "Machine Learning",
-      "desc": "Clasificación, regresión, clustering, validación de modelos y deploy con scikit-learn y XGBoost"
+      "desc": "Clasificación, regresión, clustering, validación de modelos, balanceo de datos y desarrollo de pipelines predictivos."
     },
     "governanca": {
       "nome": "Gobernanza de TI",
-      "desc": "ITIL, COBIT, cumplimiento regulatorio, gestión de riesgos y políticas de seguridad"
+      "desc": "Nociones de ITIL, COBIT, compliance, gestión de riesgos, seguridad de la información y alineación entre tecnología y objetivos de negocio."
     },
-    "admin": {
-      "nome": "Administración",
-      "desc": "Gestión estratégica, análisis de contratos, control presupuestario e indicadores de desempeño"
+    "cloud": {
+      "nome": "Cloud Computing",
+      "desc": "Experiencia con entornos AWS, Azure y Oracle, incluyendo extracción, consulta, almacenamiento y análisis de datos en plataformas de nube."
+    },
+    "automacao": {
+      "nome": "Automatización",
+      "desc": "Creación de automatizaciones, bots y agentes robóticos para la ejecución de tareas repetitivas, integración de sistemas y aumento de la productividad operativa."
+    },
+    "data_analytics": {
+      "nome": "Data Analytics",
+      "desc": "Análisis exploratorio, tratamiento de datos, generación de insights, construcción de indicadores y apoyo a la toma de decisiones basada en datos."
     }
   },
   "projetos": {
@@ -111,32 +145,50 @@
     "voltar": "Volver",
     "projeto1": {
       "nome": "Clasificación de Pacientes con Diabetes",
-      "resumo": "Modelo de Machine Learning para predecir el riesgo de diabetes basado en indicadores clínicos, utilizando técnicas de clasificación y validación cruzada.",
-      "tecnologias": "Python, Scikit-learn, Pandas, XGBoost",
+      "resumo": "Modelo de Machine Learning desarrollado para clasificar pacientes con riesgo de diabetes a partir de datos clínicos, demográficos y hábitos de vida. El proyecto incluyó análisis exploratorio, balanceo de clases, comparación de algoritmos, entrenamiento con LightGBM y deploy en Streamlit.",
+      "tecnologias": "Python, Pandas, Scikit-learn, PyCaret, LightGBM, Streamlit",
       "titulo_pagina": "Clasificación de Pacientes con Diabetes",
-      "descricao": "Este proyecto utiliza técnicas avanzadas de Machine Learning para clasificar pacientes según su riesgo de desarrollar diabetes. A partir de indicadores clínicos como nivel de glucosa, IMC, edad e historial familiar, el modelo identifica patrones que permiten una intervención temprana.",
+      "descricao": "Proyecto de Machine Learning desarrollado para clasificar pacientes como diabéticos o no a partir de indicadores de salud, datos demográficos y hábitos de vida. La solución utiliza el Diabetes Health Indicators Dataset, con más de 253 mil registros, y contempla todo el flujo de un proyecto de Ciencia de Datos: análisis exploratorio, tratamiento de variables, selección de atributos, balanceo de clases, entrenamiento de modelos, evaluación de rendimiento y deploy en Streamlit.\n\nEl modelo final fue construido con LightGBM tras comparación con diferentes algoritmos de clasificación. La solución presentó un rendimiento consistente en los conjuntos de entrenamiento, prueba y validación, alcanzando un AUC superior a 0,97 y aproximadamente un 92% de precisión (accuracy) en la etapa de validación. El proyecto demuestra la aplicación práctica de Machine Learning en salud, centrándose en la identificación de patrones asociados al riesgo de diabetes y el apoyo a la toma de decisiones basada en datos.",
       "insights_titulo": "Insights Principales",
-      "insight1": "La glucosa en ayunas es el predictor más fuerte para la clasificación de riesgo",
-      "insight2": "Modelos ensemble (XGBoost) superaron la regresión logística en recall",
-      "insight3": "Técnicas de balanceamiento (SMOTE) mejoraron significativamente la detección de positivos",
-      "insight4": "La validación cruzada estratificada garantizó robustez en los resultados",
-      "abordagem_titulo": "Enfoque Técnico",
-      "abordagem": "Pipeline completo de ciencia de datos: análisis exploratorio, ingeniería de features, comparación de modelos (Logistic Regression, Random Forest, XGBoost), optimización de hiperparámetros con GridSearchCV y evaluación con métricas de clasificación (Precision, Recall, F1-Score, AUC-ROC).",
+      "insight1": "Análisis de una base con más de 253 mil registros de salud y estilo de vida",
+      "insight2": "Tratamiento, normalización y balanceo de datos con SMOTE",
+      "insight3": "Selección y comparación de modelos con PyCaret",
+      "insight4": "Entrenamiento y optimización de modelo LightGBM",
+      "insight5": "Evaluación con exactitud, precisión, recall, F1-score, matriz de confusión y curva ROC",
+      "insight6": "Deploy del modelo en aplicación Streamlit para uso interactivo",
+      "resultados_titulo": "Resultados Obtenidos",
+      "resultados": "El modelo LightGBM presentó un rendimiento consistente en los conjuntos de entrenamiento, prueba y validación. En la etapa de comparación automatizada con PyCaret, LightGBM obtuvo 91,61% de exactitud (accuracy), AUC de 0,9700, precisión de 0,9599 y F1-score de 0,9119.\n\nTras el ajuste y validación manual, el modelo mantuvo buena capacidad de generalización, alcanzando AUC de 0,9753 en entrenamiento, 0,9716 en prueba y 0,9701 en validación, con métricas consistentes de precisión, recall y F1-score.",
       "github": "Ver en GitHub"
     },
     "projeto2": {
-      "nome": "Análisis de Crédito",
-      "resumo": "Análisis predictivo de riesgo de crédito combinando modelos estadísticos con reglas de negocio, aplicando ingeniería de features e interpretabilidad de modelos.",
-      "tecnologias": "Python, SQL, Power BI, Scikit-learn",
-      "titulo_pagina": "Análisis de Crédito",
-      "descricao": "Proyecto de análisis de riesgo de crédito que combina modelos predictivos con reglas de negocio para evaluar la probabilidad de incumplimiento. La solución integra datos transaccionales con indicadores conductuales para una visión holística del riesgo.",
+      "nome": "Análisis de Crédito y Perfil de Morosidad",
+      "resumo": "Análisis exploratorio de datos de crédito centrado en la identificación de patrones de morosidad. El proyecto utilizó Python, Pandas, Seaborn y Matplotlib para tratar datos financieros, comparar perfiles de clientes cumplidores y morosos, y generar insights estratégicos para la toma de decisiones en crédito.",
+      "tecnologias": "Python, Pandas, Seaborn, Matplotlib, EDA, Credit Risk",
+      "titulo_pagina": "Análisis de Crédito y Perfil de Morosidad",
+      "descricao": "Este proyecto realiza un análisis exploratorio de datos de crédito con el objetivo de identificar patrones asociados a la morosidad de los clientes de una institución financiera. El análisis utiliza una base con 10.127 clientes y 16 variables, incluyendo edad, escolaridad, rango salarial, tipo de tarjeta, límite de crédito, cantidad de productos, valor de las transacciones y número de transacciones en los últimos 12 meses.\n\nEl trabajo involucró la lectura y comprensión de la base, análisis de datos categóricos y numéricos, tratamiento de valores nulos, conversión de variables monetarias a formato numérico y creación de visualizaciones comparativas entre clientes cumplidores y morosos. El objetivo fue apoyar decisiones más informadas sobre el riesgo de crédito, la prevención de pérdidas y la mejora en la oferta de productos financieros.",
       "insights_titulo": "Insights Principales",
-      "insight1": "Las variables conductuales son más predictivas que datos demográficos aislados",
-      "insight2": "La ingeniería de features con razones e interacciones aumentó el poder discriminatorio en un 15%",
-      "insight3": "Los valores SHAP garantizaron transparencia en la interpretación de decisiones crediticias",
-      "insight4": "La integración con Power BI permitió monitoreo en tiempo real de los indicadores de riesgo",
-      "abordagem_titulo": "Enfoque Técnico",
-      "abordagem": "Extracción y transformación vía SQL avanzado, modelado predictivo con scikit-learn, análisis de feature importance con SHAP, y visualización de indicadores de riesgo en dashboards Power BI con DAX personalizado para KPIs de crédito.",
+      "insight1": "Análisis de una base con 10.127 clientes y 16 variables financieras y conductuales",
+      "insight2": "Identificación de una tasa inicial de morosidad del 16,07% en la base analizada",
+      "insight3": "Tratamiento de datos nulos en escolaridad, estado civil y salario anual",
+      "insight4": "Conversión de variables monetarias de texto a formato numérico",
+      "insight5": "Comparación visual entre clientes cumplidores y morosos",
+      "insight6": "Generación de insights sobre cantidad de productos, transacciones, límite de crédito y comportamiento de gasto",
+      "resultados_titulo": "Resultados Obtenidos",
+      "resultados": "El análisis mostró que los clientes morosos presentaban patrones específicos de comportamiento. En general, poseían entre 2 y 3 productos contratados, mientras que los clientes cumplidores tendían a poseer entre 3 y 6 productos. También se observó que los clientes morosos concentraban sus transacciones en valores más bajos, con un promedio de alrededor de R$ 2.500,00 en los últimos 12 meses y sin superar valores superiores a R$ 10.000,00 en el período analizado.\n\nOtro punto relevante fue la relación entre el valor y la cantidad de transacciones. Los clientes con mayor volumen financiero y mayor cantidad de transacciones demostraron una menor tendencia a la morosidad, mientras que los clientes con transacciones de menor valor y menor frecuencia aparecieron más asociados al grupo moroso. Además, los límites de crédito por encima de R$ 20.000,00 aparecieron predominantemente entre los clientes cumplidores.",
+      "github": "Ver en GitHub"
+    },
+    "projeto3": {
+      "nome": "Detección de Residuos de Bebidas con YOLOv5",
+      "resumo": "Proyecto de visión computacional centrado en la clasificación de residuos de bebidas utilizando YOLOv5. El modelo fue entrenado para detectar y diferenciar objetos reciclables de las clases aluminio y vidrio, a partir de imágenes etiquetadas en formato YOLO. La solución demuestra una aplicación práctica de Machine Learning para apoyar procesos de recolección selectiva, reducir desperdicios y aumentar la eficiencia en el reciclaje.",
+      "tecnologias": "Python, YOLOv5, PyTorch, OpenCV, LabelImg, Machine Learning",
+      "titulo_pagina": "Detección de Residuos de Bebidas con YOLOv5",
+      "descricao": "Proyecto de visión computacional desarrollado en el Bootcamp BairesDev - Machine Learning Practitioner, centrado en la detección de residuos de bebidas reciclables. El modelo YOLOv5 fue entrenado para reconocer latas de aluminio y botellas de vidrio, utilizando imágenes etiquetadas con bounding boxes y validación con datos separados. La propuesta demuestra cómo las técnicas de Machine Learning pueden apoyar procesos de recolección selectiva, reciclaje y sostenibilidad.",
+      "insights_titulo": "Insights Principales",
+      "insight1": "Creación y organización de un dataset con clases de aluminio y vidrio",
+      "insight2": "Etiquetado de imágenes en formato YOLO usando LabelImg",
+      "insight3": "Entrenamiento de la red YOLOv5 con PyTorch para detección de objetos",
+      "insight4": "Validación del modelo en imágenes reales con bounding boxes",
+      "insight5": "Aplicación práctica orientada al reciclaje y separación de residuos",
       "github": "Ver en GitHub"
     }
   },

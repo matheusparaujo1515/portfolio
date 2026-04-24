@@ -16,8 +16,10 @@ export default function Experience() {
         "experiencia.desc1_item2",
         "experiencia.desc1_item3",
         "experiencia.desc1_item4",
+        "experiencia.desc1_item5",
+        "experiencia.desc1_item6",
       ],
-      current: true,
+      current: false,
     },
     {
       cargo: "experiencia.cargo2",
@@ -28,16 +30,6 @@ export default function Experience() {
         "experiencia.desc2_item2",
         "experiencia.desc2_item3",
         "experiencia.desc2_item4",
-      ],
-    },
-    {
-      cargo: "experiencia.cargo3",
-      empresa: "experiencia.empresa3",
-      periodo: "experiencia.periodo3",
-      items: [
-        "experiencia.desc3_item1",
-        "experiencia.desc3_item2",
-        "experiencia.desc3_item3",
       ],
     },
   ];

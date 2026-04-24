@@ -1,8 +1,8 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import { FaPython, FaDatabase } from "react-icons/fa";
-import { FiBarChart2, FiCpu, FiShield, FiTrendingUp } from "react-icons/fi";
+import { FaPython, FaDatabase, FaRobot } from "react-icons/fa";
+import { FiBarChart2, FiCpu, FiShield, FiCloud, FiPieChart } from "react-icons/fi";
 
 export default function Skills() {
   const { t } = useTranslation();
@@ -13,7 +13,9 @@ export default function Skills() {
     { key: "powerbi", icon: FiBarChart2, color: "text-amber-600 dark:text-amber-400" },
     { key: "ml", icon: FiCpu, color: "text-purple-600 dark:text-purple-400" },
     { key: "governanca", icon: FiShield, color: "text-teal-600 dark:text-teal-400" },
-    { key: "admin", icon: FiTrendingUp, color: "text-rose-600 dark:text-rose-400" },
+    { key: "cloud", icon: FiCloud, color: "text-cyan-600 dark:text-cyan-400" },
+    { key: "automacao", icon: FaRobot, color: "text-slate-600 dark:text-slate-400" },
+    { key: "data_analytics", icon: FiPieChart, color: "text-indigo-600 dark:text-indigo-400" },
   ];
 
   return (
@@ -22,7 +24,7 @@ export default function Skills() {
         <h2 className="text-3xl font-bold text-stone-950 dark:text-stone-50 mb-12 text-center">
           {t("habilidades.titulo")}
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {skills.map((skill) => {
             const Icon = skill.icon;
             return (

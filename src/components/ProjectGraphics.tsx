@@ -26,3 +26,22 @@ export const CreditGraphic = () => (
     </g>
   </svg>
 );
+
+export const VisionGraphic = () => (
+  <svg viewBox="0 0 100 100" className="w-24 h-24">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="0.95; 1.05; 0.95" dur="4s" repeatCount="indefinite" transformOrigin="50 50" />
+      <rect x="20" y="20" width="60" height="60" fill="none" stroke="#8ebc83" strokeWidth="2" strokeDasharray="5,5">
+        <animate attributeName="stroke-dashoffset" values="0; 20" dur="2s" repeatCount="indefinite" />
+      </rect>
+      <circle cx="50" cy="50" r="15" fill="none" stroke="#8ebc83" strokeWidth="3" />
+      <circle cx="50" cy="50" r="5" fill="#8ebc83">
+        <animate attributeName="r" values="4; 6; 4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <path d="M10,20 L20,20 M10,20 L10,30" fill="none" stroke="#8ebc83" strokeWidth="3" />
+      <path d="M90,20 L80,20 M90,20 L90,30" fill="none" stroke="#8ebc83" strokeWidth="3" />
+      <path d="M10,80 L20,80 M10,80 L10,70" fill="none" stroke="#8ebc83" strokeWidth="3" />
+      <path d="M90,80 L80,80 M90,80 L90,70" fill="none" stroke="#8ebc83" strokeWidth="3" />
+    </g>
+  </svg>
+);

@@ -22,57 +22,83 @@
   "experiencia": {
     "titulo": "Professional Experience",
     "atual": "Current",
-    "cargo1": "Mid-Level Data Analyst",
-    "empresa1": "PROCERGS — Data Processing Co. of RS",
-    "periodo1": "Feb 2024 — Present",
-    "desc1_item1": "Advanced analysis with Python and SQL, going beyond ETL — including predictive modeling and intelligent automation",
-    "desc1_item2": "Development of executive dashboards in Power BI for strategic decision-making",
-    "desc1_item3": "Implementation of Machine Learning models for classification and forecasting",
-    "desc1_item4": "IT Governance and regulatory framework compliance",
-    "cargo2": "IT Governance Analyst",
-    "empresa2": "PROCERGS",
-    "periodo2": "Jun 2022 — Feb 2024",
-    "desc2_item1": "IT process management aligned with ITIL and COBIT frameworks",
-    "desc2_item2": "Information security policy and compliance development",
-    "desc2_item3": "Internal audit coordination and corporate risk management",
-    "desc2_item4": "Process mapping and operational optimization",
-    "cargo3": "Administrative Technician",
-    "empresa3": "PROCERGS",
-    "periodo3": "May 2019 — Jun 2022",
-    "desc3_item1": "Administrative management support and budget control",
-    "desc3_item2": "Contract analysis and vendor governance",
-    "desc3_item3": "Management reports and performance indicators development"
+    "cargo1": "Data Scientist",
+    "empresa1": "Educar Games",
+    "periodo1": "Jan 2024 — Feb 2026",
+    "desc1_item1": "Data collection and extraction in SQL databases across AWS, Azure, and Oracle environments.",
+    "desc1_item2": "Data treatment, cleaning, and exploratory analysis with Python, Pandas, and Power Query.",
+    "desc1_item3": "Development of interactive dashboards and reports in Power BI, Metabase, Grafana, and Jupyter Notebook.",
+    "desc1_item4": "Generation and presentation of strategic insights to support data-driven decision making.",
+    "desc1_item5": "Participation in implementation projects and task automation using PyAutoGUI.",
+    "desc1_item6": "Report creation and end-user support.",
+    "cargo2": "Credit Clerk",
+    "empresa2": "Bancoob",
+    "periodo2": "Jul 2019 — Jul 2020",
+    "desc2_item1": "Accounting reconciliation of daily transactions and support for credit routines.",
+    "desc2_item2": "Analysis of graphic records, contracts, and client dossiers.",
+    "desc2_item3": "Issuance, verification, and correction of discharge letters.",
+    "desc2_item4": "Support for renegotiation processes and documentary control."
   },
   "educacao": {
     "titulo": "Education",
     "curso1": "Systems Analysis and Development",
-    "instituicao1": "Universidade Estácio de Sá",
-    "periodo1": "2024 — In progress",
+    "instituicao1": "Faculdade Descomplica",
+    "periodo1": "2025 — Present",
     "andamento": "In progress",
-    "curso2": "Postgraduate in IT Governance",
-    "instituicao2": "UniCEUB",
-    "periodo2": "Completed",
-    "curso3": "Bachelor's in Business Administration",
-    "instituicao3": "UniCEUB",
-    "periodo3": "Completed"
+    "curso2": "Data Science",
+    "instituicao2": "EBAC",
+    "periodo2": "2023 — 2024",
+    "curso3": "Postgraduate in IT Governance",
+    "instituicao3": "Senac-DF",
+    "periodo3": "2021 — 2022",
+    "curso4": "Bachelor's in Business Administration",
+    "instituicao4": "UDF",
+    "periodo4": "2017 — 2020"
   },
   "certificacoes": {
     "titulo": "Courses & Certifications",
     "itens": {
-      "sc900": {
-        "titulo": "Microsoft Security, Compliance, and Identity Fundamentals (SC-900)",
-        "emissor": "Microsoft",
-        "data": "2026"
+      "ebac": {
+        "titulo": "Data Science",
+        "emissor": "EBAC — British School of Creative Arts and Technology",
+        "data": "Jun 2023 — Oct 2024",
+        "tags": "Python, SQL, Statistics, Machine Learning, Pandas, Scikit-learn, Streamlit"
       },
-      "ai300": {
-        "titulo": "Microsoft Azure AI Fundamentals (AI-300)",
-        "emissor": "Microsoft",
-        "data": "2026"
+      "randstad": {
+        "titulo": "Randstad Bootcamp — Data Analysis",
+        "emissor": "DIO",
+        "data": "2025",
+        "tags": "Data Analysis, ETL, Python, Data Visualization"
       },
-      "aws": {
-        "titulo": "AWS Academy Cloud Foundations",
-        "emissor": "AWS Academy",
-        "data": "2025"
+      "bairesdev": {
+        "titulo": "BairesDev Bootcamp — Machine Learning Practitioner",
+        "emissor": "DIO",
+        "data": "2025",
+        "tags": "Python, Machine Learning, Artificial Intelligence, Computer Vision"
+      },
+      "powerbi": {
+        "titulo": "Complete Power BI — From Basic to Advanced",
+        "emissor": "Udemy",
+        "data": "2024",
+        "tags": "Power BI, Dashboards, Data Modeling, Exploratory Analysis"
+      },
+      "quode": {
+        "titulo": "Advanced Monitoring with Prometheus and Grafana",
+        "emissor": "Quode",
+        "data": "2025",
+        "tags": "Grafana, Monitoring, Metrics, Observability"
+      },
+      "ibm_ai": {
+        "titulo": "Artificial Intelligence Fundamentals",
+        "emissor": "IBM",
+        "data": "2024",
+        "tags": "Artificial Intelligence, Python, AI Fundamentals"
+      },
+      "ibm_web": {
+        "titulo": "Web Development with Python",
+        "emissor": "IBM",
+        "data": "2024",
+        "tags": "Python, Web Development, Applications"
       }
     }
   },
@@ -80,27 +106,35 @@
     "titulo": "Skills",
     "python": {
       "nome": "Python",
-      "desc": "Beyond ETL: predictive modeling, intelligent automation, web scraping, APIs and production Machine Learning"
+      "desc": "Data analysis, automation, APIs, web scraping, Machine Learning and application development with libraries like Pandas, NumPy and Scikit-learn."
     },
     "sql": {
-      "nome": "SQL",
-      "desc": "Complex queries, performance optimization, CTEs, window functions and advanced relational modeling"
+      "nome": "SQL & NoSQL",
+      "desc": "Complex queries, relational modeling, query optimization, data manipulation in PostgreSQL/AWS Athena and NoSQL databases like MongoDB."
     },
     "powerbi": {
       "nome": "Power BI",
-      "desc": "Executive dashboards, advanced DAX, semantic modeling and multi-source integration"
+      "desc": "Executive dashboards, data modeling, DAX, Power Query, exploratory analysis and integration with multiple data sources."
     },
     "ml": {
       "nome": "Machine Learning",
-      "desc": "Classification, regression, clustering, model validation and deployment with scikit-learn and XGBoost"
+      "desc": "Classification, regression, clustering, model validation, data balancing and predictive pipeline development."
     },
     "governanca": {
       "nome": "IT Governance",
-      "desc": "ITIL, COBIT, regulatory compliance, risk management and security policies"
+      "desc": "Knowledge of ITIL, COBIT, compliance, risk management, information security and alignment between technology and business goals."
     },
-    "admin": {
-      "nome": "Business Administration",
-      "desc": "Strategic management, contract analysis, budget control and performance indicators"
+    "cloud": {
+      "nome": "Cloud Computing",
+      "desc": "Experience with AWS, Azure and Oracle environments, including extraction, querying, storage and data analysis on cloud platforms."
+    },
+    "automacao": {
+      "nome": "Automation",
+      "desc": "Creation of automations, bots and robotic agents for repetitive task execution, system integration and operational productivity gain."
+    },
+    "data_analytics": {
+      "nome": "Data Analytics",
+      "desc": "Exploratory analysis, data processing, insight generation, indicator building and support for data-driven decision making."
     }
   },
   "projetos": {
@@ -111,32 +145,50 @@
     "voltar": "Back",
     "projeto1": {
       "nome": "Diabetes Patient Classification",
-      "resumo": "Machine Learning model to predict diabetes risk based on clinical indicators, using classification techniques and cross-validation.",
-      "tecnologias": "Python, Scikit-learn, Pandas, XGBoost",
+      "resumo": "Machine Learning model developed to classify patients at risk of diabetes based on clinical, demographic and lifestyle data. The project involved exploratory analysis, class balancing, algorithm comparison, LightGBM training and Streamlit deployment.",
+      "tecnologias": "Python, Pandas, Scikit-learn, PyCaret, LightGBM, Streamlit",
       "titulo_pagina": "Diabetes Patient Classification",
-      "descricao": "This project uses advanced Machine Learning techniques to classify patients by their risk of developing diabetes. Using clinical indicators such as glucose level, BMI, age, and family history, the model identifies patterns that enable early intervention.",
+      "descricao": "Machine Learning project developed to classify patients as diabetic or not based on health indicators, demographic data and lifestyle habits. The solution uses the Diabetes Health Indicators Dataset, with over 253 thousand records, and covers the entire Data Science project workflow: exploratory analysis, variable treatment, feature selection, class balancing, model training, performance evaluation and Streamlit deployment.\n\nThe final model was built with LightGBM after comparison with different classification algorithms. The solution showed consistent performance across training, testing and validation sets, reaching an AUC over 0.97 and approximately 92% accuracy in the validation stage. The project demonstrates the practical application of Machine Learning in healthcare, focusing on identifying patterns associated with diabetes risk and supporting data-driven decision making.",
       "insights_titulo": "Key Insights",
-      "insight1": "Fasting glucose is the strongest predictor for risk classification",
-      "insight2": "Ensemble models (XGBoost) outperformed logistic regression in recall",
-      "insight3": "Balancing techniques (SMOTE) significantly improved positive case detection",
-      "insight4": "Stratified cross-validation ensured robust results",
-      "abordagem_titulo": "Technical Approach",
-      "abordagem": "Complete data science pipeline: exploratory analysis, feature engineering, model comparison (Logistic Regression, Random Forest, XGBoost), hyperparameter tuning with GridSearchCV, and evaluation with classification metrics (Precision, Recall, F1-Score, AUC-ROC).",
+      "insight1": "Analysis of a dataset with over 253 thousand health and lifestyle records",
+      "insight2": "Data treatment, normalization and balancing with SMOTE",
+      "insight3": "Model selection and comparison using PyCaret",
+      "insight4": "LightGBM model training and optimization",
+      "insight5": "Evaluation with accuracy, precision, recall, F1-score, confusion matrix and ROC curve",
+      "insight6": "Model deployment in a Streamlit app for interactive use",
+      "resultados_titulo": "Results",
+      "resultados": "The LightGBM model showed consistent performance in the training, test and validation sets. In the automated comparison stage with PyCaret, LightGBM achieved 91.61% accuracy, 0.9700 AUC, 0.9599 precision and 0.9119 F1-score.\n\nAfter manual tuning and validation, the model maintained good generalization capacity, reaching an AUC of 0.9753 in training, 0.9716 in testing and 0.9701 in validation, with consistent precision, recall and F1-score metrics.",
       "github": "View on GitHub"
     },
     "projeto2": {
-      "nome": "Credit Analysis",
-      "resumo": "Predictive credit risk analysis combining statistical models with business rules, applying feature engineering and model interpretability.",
-      "tecnologias": "Python, SQL, Power BI, Scikit-learn",
-      "titulo_pagina": "Credit Analysis",
-      "descricao": "Credit risk analysis project that combines predictive models with business rules to assess the probability of default. The solution integrates transactional data with behavioral indicators for a holistic view of risk.",
+      "nome": "Credit Analysis and Default Profile",
+      "resumo": "Exploratory credit data analysis aimed at identifying default patterns. The project used Python, Pandas, Seaborn and Matplotlib to process financial data, compare profiles of compliant and defaulting customers, and generate strategic insights for credit decision making.",
+      "tecnologias": "Python, Pandas, Seaborn, Matplotlib, EDA, Credit Risk",
+      "titulo_pagina": "Credit Analysis and Default Profile",
+      "descricao": "This project performs an exploratory credit data analysis aimed at identifying patterns associated with customer default in a financial institution. The analysis uses a dataset with 10,127 customers and 16 variables, including age, education, salary range, card type, credit limit, number of products, transaction value, and number of transactions in the last 12 months.\n\nThe work involved reading and understanding the dataset, analyzing categorical and numerical data, handling missing values, converting monetary variables to numerical format, and creating comparative visualizations between compliant and defaulting customers. The goal was to support more informed decisions on credit risk, loss prevention, and improvement in financial product offerings.",
       "insights_titulo": "Key Insights",
-      "insight1": "Behavioral variables are more predictive than isolated demographic data",
-      "insight2": "Feature engineering with ratios and interactions increased discriminatory power by 15%",
-      "insight3": "SHAP values ensured transparency in credit decision interpretation",
-      "insight4": "Power BI integration enabled real-time risk indicator monitoring",
-      "abordagem_titulo": "Technical Approach",
-      "abordagem": "Extraction and transformation via advanced SQL, predictive modeling with scikit-learn, feature importance analysis with SHAP, and risk indicator visualization in Power BI dashboards with custom DAX for credit KPIs.",
+      "insight1": "Analysis of a dataset with 10,127 customers and 16 financial and behavioral variables",
+      "insight2": "Identification of an initial default rate of 16.07% in the analyzed dataset",
+      "insight3": "Treatment of missing data in education, marital status and annual salary",
+      "insight4": "Conversion of monetary variables from text to numerical format",
+      "insight5": "Visual comparison between compliant and defaulting customers",
+      "insight6": "Generation of insights regarding product quantity, transactions, credit limit and spending behavior",
+      "resultados_titulo": "Results",
+      "resultados": "The analysis showed that defaulting customers exhibited specific behavioral patterns. Generally, they had between 2 and 3 contracted products, while compliant customers tended to have between 3 and 6 products. It was also observed that defaulting customers concentrated their transactions at lower values, averaging around R$ 2,500.00 in the last 12 months and not exceeding values above R$ 10,000.00 in the analyzed period.\n\nAnother relevant point was the relationship between transaction value and quantity. Customers with higher financial volume and transaction count showed a lower tendency to default, whereas customers with lower value and frequency transactions appeared more associated with the defaulting group. Additionally, credit limits above R$ 20,000.00 appeared predominantly among compliant customers.",
+      "github": "View on GitHub"
+    },
+    "projeto3": {
+      "nome": "Beverage Waste Detection with YOLOv5",
+      "resumo": "Computer vision project focused on beverage waste classification using YOLOv5. The model was trained to detect and differentiate recyclable objects of aluminum and glass classes, from images labeled in YOLO format. The solution demonstrates a practical application of Machine Learning to support selective collection processes, reduce waste and increase recycling efficiency.",
+      "tecnologias": "Python, YOLOv5, PyTorch, OpenCV, LabelImg, Machine Learning",
+      "titulo_pagina": "Beverage Waste Detection with YOLOv5",
+      "descricao": "Computer vision project developed at BairesDev - Machine Learning Practitioner Bootcamp, focusing on recyclable beverage waste detection. The YOLOv5 model was trained to recognize aluminum cans and glass bottles, using bounding box labeled images and validation with separate data. The proposal demonstrates how Machine Learning techniques can support selective collection, recycling and sustainability processes.",
+      "insights_titulo": "Key Insights",
+      "insight1": "Creation and organization of a dataset with aluminum and glass classes",
+      "insight2": "Image labeling in YOLO format using LabelImg",
+      "insight3": "YOLOv5 network training with PyTorch for object detection",
+      "insight4": "Model validation on real images with bounding boxes",
+      "insight5": "Practical application focused on recycling and waste separation",
       "github": "View on GitHub"
     }
   },

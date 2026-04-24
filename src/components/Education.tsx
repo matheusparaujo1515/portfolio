@@ -23,6 +23,11 @@ export default function Education() {
       instituicao: "educacao.instituicao3",
       periodo: "educacao.periodo3",
     },
+    {
+      curso: "educacao.curso4",
+      instituicao: "educacao.instituicao4",
+      periodo: "educacao.periodo4",
+    },
   ];
 
   return (
@@ -31,7 +36,7 @@ export default function Education() {
         <h2 className="text-3xl font-bold text-stone-900 dark:text-stone-50 mb-12 text-center">
           {t("educacao.titulo")}
         </h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {education.map((edu, idx) => (
             <div
               key={idx}

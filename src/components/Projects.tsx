@@ -3,7 +3,7 @@
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
-import { DnaGraphic, CreditGraphic } from "./ProjectGraphics";
+import { DnaGraphic, CreditGraphic, VisionGraphic } from "./ProjectGraphics";
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -18,6 +18,11 @@ export default function Projects() {
       key: "projeto2",
       href: "/projetos/analise-credito",
       tech: t("projetos.projeto2.tecnologias"),
+    },
+    {
+      key: "projeto3",
+      href: "/projetos/deteccao-residuos",
+      tech: t("projetos.projeto3.tecnologias"),
     },
   ];
 
@@ -38,8 +43,10 @@ export default function Projects() {
                 <div className="w-full h-full flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
                   {proj.key === "projeto1" ? (
                     <DnaGraphic />
-                  ) : (
+                  ) : proj.key === "projeto2" ? (
                     <CreditGraphic />
+                  ) : (
+                    <VisionGraphic />
                   )}
                 </div>
               </div>
@@ -48,8 +55,8 @@ export default function Projects() {
                 <h3 className="text-lg font-semibold text-stone-900 dark:text-stone-100 mb-2">
                   {t(`projetos.${proj.key}.nome`)}
                 </h3>
-                <p className="text-sm text-stone-600 dark:text-stone-300 mb-4 leading-relaxed">
-                  {t(`projetos.${proj.key}.descricao`)}
+                <p className="text-sm text-stone-600 dark:text-stone-300 mb-4 leading-relaxed line-clamp-3">
+                  {t(`projetos.${proj.key}.resumo`)}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {proj.tech.split(", ").map((tech) => (

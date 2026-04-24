@@ -17,6 +17,8 @@ export default function ClassificacaoDiabetes() {
     "projetos.projeto1.insight2",
     "projetos.projeto1.insight3",
     "projetos.projeto1.insight4",
+    "projetos.projeto1.insight5",
+    "projetos.projeto1.insight6",
   ];
 
   return (
@@ -51,7 +53,7 @@ export default function ClassificacaoDiabetes() {
             </div>
 
             <div className="bg-white dark:bg-stone-800 rounded-xl p-8 shadow-sm border border-stone-100 dark:border-stone-700 mb-8">
-              <p className="text-stone-600 dark:text-stone-300 leading-relaxed">
+              <p className="text-stone-600 dark:text-stone-300 leading-relaxed whitespace-pre-line">
                 {t("projetos.projeto1.descricao")}
               </p>
             </div>
@@ -70,9 +72,18 @@ export default function ClassificacaoDiabetes() {
               </ul>
             </div>
 
+            <div className="bg-white dark:bg-stone-800 rounded-xl p-8 shadow-sm border border-stone-100 dark:border-stone-700 mb-8">
+              <h2 className="text-xl font-semibold text-stone-900 dark:text-stone-100 mb-4">
+                {t("projetos.projeto1.resultados_titulo")}
+              </h2>
+              <p className="text-stone-600 dark:text-stone-300 leading-relaxed whitespace-pre-line">
+                {t("projetos.projeto1.resultados")}
+              </p>
+            </div>
+
             <div className="flex gap-4">
               <a
-                href="https://github.com/matheusparaujo1515"
+                href="https://github.com/matheusparaujo1515/EBAC-Data-Science/tree/main/Projeto_Final"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-pistache text-white rounded-lg hover:bg-pistache-dark transition-colors font-medium"
