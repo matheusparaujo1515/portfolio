@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "inicio": "Início",
+    "sobre": "Sobre",
+    "experiencia": "Experiência",
+    "educacao": "Educação",
+    "habilidades": "Habilidades",
+    "projetos": "Projetos"
+  },
+  "hero": {
+    "saudacao": "Olá, eu sou",
+    "nome": "Matheus Araújo",
+    "titulo": "Profissional de Dados | Administrador | Futuro Analista de Sistemas",
+    "subtitulo": "Unindo visão estratégica de negócios à precisão técnica em Ciência de Dados e Governança de TI."
+  },
+  "sobre": {
+    "titulo": "Sobre Mim",
+    "paragrafo1": "Sou um profissional que combina uma sólida formação em Administração com especialização em Governança de TI e uma graduação em andamento em Análise e Desenvolvimento de Sistemas. Minha trajetória única me permite traduzir desafios de negócio em soluções técnicas eficazes.",
+    "paragrafo2": "Com atuação em gestão estratégica, compliance regulatório e análise de dados, desenvolvi expertise em Python e SQL — indo muito além de processos de ETL tradicionais — além de Power BI para visualização executiva e Machine Learning para modelagem preditiva.",
+    "paragrafo3": "Minha abordagem é orientada a resultados: utilizo dados como ativo estratégico, conectando análise técnica à tomada de decisão corporativa."
+  },
+  "experiencia": {
+    "titulo": "Experiência Profissional",
+    "atual": "Atual",
+    "cargo1": "Analista de Dados Pleno",
+    "empresa1": "PROCERGS — Cia. de Processamento de Dados do RS",
+    "periodo1": "Fev 2024 — Presente",
+    "desc1_item1": "Análise avançada com Python e SQL, indo além de ETL — incluindo modelagem preditiva e automação inteligente",
+    "desc1_item2": "Desenvolvimento de dashboards executivos em Power BI para tomada de decisão estratégica",
+    "desc1_item3": "Implementação de modelos de Machine Learning para classificação e previsão",
+    "desc1_item4": "Atuação em Governança de TI e conformidade com frameworks regulatórios",
+    "cargo2": "Analista de Governança de TI",
+    "empresa2": "PROCERGS",
+    "periodo2": "Jun 2022 — Fev 2024",
+    "desc2_item1": "Gestão de processos de TI alinhados a frameworks ITIL e COBIT",
+    "desc2_item2": "Elaboração de políticas de segurança da informação e compliance",
+    "desc2_item3": "Coordenação de auditorias internas e gestão de riscos corporativos",
+    "desc2_item4": "Mapeamento e otimização de processos operacionais",
+    "cargo3": "Técnico Administrativo",
+    "empresa3": "PROCERGS",
+    "periodo3": "Mai 2019 — Jun 2022",
+    "desc3_item1": "Suporte à gestão administrativa e controle orçamentário",
+    "desc3_item2": "Análise de contratos e governança de fornecedores",
+    "desc3_item3": "Elaboração de relatórios gerenciais e indicadores de desempenho"
+  },
+  "educacao": {
+    "titulo": "Formação Acadêmica",
+    "curso1": "Análise e Desenvolvimento de Sistemas",
+    "instituicao1": "Universidade Estácio de Sá",
+    "periodo1": "2024 — Em andamento",
+    "andamento": "Em andamento",
+    "curso2": "Pós-Graduação em Governança de TI",
+    "instituicao2": "UniCEUB",
+    "periodo2": "Concluído",
+    "curso3": "Bacharelado em Administração",
+    "instituicao3": "UniCEUB",
+    "periodo3": "Concluído"
+  },
+  "habilidades": {
+    "titulo": "Habilidades",
+    "python": {
+      "nome": "Python",
+      "desc": "Além de ETL: modelagem preditiva, automação inteligente, web scraping, APIs e Machine Learning em produção"
+    },
+    "sql": {
+      "nome": "SQL",
+      "desc": "Consultas complexas, otimização de performance, CTEs, window functions e modelagem relacional avançada"
+    },
+    "powerbi": {
+      "nome": "Power BI",
+      "desc": "Dashboards executivos, DAX avançado, modelagem semântica e integração com fontes múltiplas"
+    },
+    "ml": {
+      "nome": "Machine Learning",
+      "desc": "Classificação, regressão, clusterização, validação de modelos e deploy com scikit-learn e XGBoost"
+    },
+    "governanca": {
+      "nome": "Governança de TI",
+      "desc": "ITIL, COBIT, compliance regulatório, gestão de riscos e políticas de segurança"
+    },
+    "admin": {
+      "nome": "Administração",
+      "desc": "Gestão estratégica, análise de contratos, controle orçamentário e indicadores de desempenho"
+    }
+  },
+  "projetos": {
+    "titulo": "Projetos",
+    "ver_detalhes": "Ver Detalhes",
+    "projeto1": {
+      "nome": "Classificação de Pacientes com Diabetes",
+      "resumo": "Modelo de Machine Learning para prever o risco de diabetes com base em indicadores clínicos, utilizando técnicas de classificação e validação cruzada.",
+      "tecnologias": "Python, Scikit-learn, Pandas, XGBoost",
+      "titulo_pagina": "Classificação de Pacientes com Diabetes",
+      "descricao": "Este projeto utiliza técnicas avançadas de Machine Learning para classificar pacientes quanto ao risco de desenvolver diabetes. A partir de indicadores clínicos como nível de glicose, IMC, idade e histórico familiar, o modelo identifica padrões que permitem uma intervenção precoce.",
+      "insights_titulo": "Insights Principais",
+      "insight1": "A glicose em jejum é o preditor mais forte para classificação de risco",
+      "insight2": "Modelos ensemble (XGBoost) superaram regressão logística em recall",
+      "insight3": "Técnicas de balanceamento (SMOTE) melhoraram significativamente a detecção de positivos",
+      "insight4": "Validação cruzada estratificada garantiu robustez nos resultados",
+      "abordagem_titulo": "Abordagem Técnica",
+      "abordagem": "Pipeline completo de ciência de dados: análise exploratória, engenharia de features, comparação de modelos (Logistic Regression, Random Forest, XGBoost), otimização de hiperparâmetros com GridSearchCV e avaliação com métricas de classificação (Precision, Recall, F1-Score, AUC-ROC).",
+      "github": "Ver no GitHub"
+    },
+    "projeto2": {
+      "nome": "Análise de Crédito",
+      "resumo": "Análise preditiva de risco de crédito combinando modelos estatísticos com regras de negócio, aplicando feature engineering e interpretabilidade de modelos.",
+      "tecnologias": "Python, SQL, Power BI, Scikit-learn",
+      "titulo_pagina": "Análise de Crédito",
+      "descricao": "Projeto de análise de risco de crédito que combina modelos preditivos com regras de negócio para avaliar a probabilidade de inadimplência. A solução integra dados transacionais com indicadores comportamentais para uma visão holística do risco.",
+      "insights_titulo": "Insights Principais",
+      "insight1": "Variáveis comportamentais são mais preditivas que dados demográficos isolados",
+      "insight2": "Feature engineering com razões e interações aumentou o poder discriminatório em 15%",
+      "insight3": "SHAP values garantiram transparência na interpretação das decisões de crédito",
+      "insight4": "Integração com Power BI permitiu monitoramento em tempo real dos indicadores de risco",
+      "abordagem_titulo": "Abordagem Técnica",
+      "abordagem": "Extração e transformação via SQL avançado, modelagem preditiva com scikit-learn, análise de feature importance com SHAP, e visualização de indicadores de risco em dashboards Power BI com DAX customizado para KPIs de crédito.",
+      "github": "Ver no GitHub"
+    }
+  },
+  "contato": {
+    "titulo": "Entre em Contato",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "telefone": "Telefone",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "idioma": "PT"
+}

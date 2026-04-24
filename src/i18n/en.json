@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "sobre": "About",
+    "experiencia": "Experience",
+    "educacao": "Education",
+    "habilidades": "Skills",
+    "projetos": "Projects"
+  },
+  "hero": {
+    "saudacao": "Hi, I'm",
+    "nome": "Matheus Araújo",
+    "titulo": "Data Professional | Administrator | Future Systems Analyst",
+    "subtitulo": "Bridging strategic business vision with technical precision in Data Science and IT Governance."
+  },
+  "sobre": {
+    "titulo": "About Me",
+    "paragrafo1": "I'm a professional who combines a solid background in Business Administration with specialization in IT Governance and an ongoing degree in Systems Analysis and Development. My unique trajectory allows me to translate business challenges into effective technical solutions.",
+    "paragrafo2": "With experience in strategic management, regulatory compliance, and data analysis, I've developed expertise in Python and SQL — going far beyond traditional ETL processes — as well as Power BI for executive visualization and Machine Learning for predictive modeling.",
+    "paragrafo3": "My approach is results-oriented: I use data as a strategic asset, connecting technical analysis to corporate decision-making."
+  },
+  "experiencia": {
+    "titulo": "Professional Experience",
+    "atual": "Current",
+    "cargo1": "Mid-Level Data Analyst",
+    "empresa1": "PROCERGS — Data Processing Co. of RS",
+    "periodo1": "Feb 2024 — Present",
+    "desc1_item1": "Advanced analysis with Python and SQL, going beyond ETL — including predictive modeling and intelligent automation",
+    "desc1_item2": "Development of executive dashboards in Power BI for strategic decision-making",
+    "desc1_item3": "Implementation of Machine Learning models for classification and forecasting",
+    "desc1_item4": "IT Governance and regulatory framework compliance",
+    "cargo2": "IT Governance Analyst",
+    "empresa2": "PROCERGS",
+    "periodo2": "Jun 2022 — Feb 2024",
+    "desc2_item1": "IT process management aligned with ITIL and COBIT frameworks",
+    "desc2_item2": "Information security policy and compliance development",
+    "desc2_item3": "Internal audit coordination and corporate risk management",
+    "desc2_item4": "Process mapping and operational optimization",
+    "cargo3": "Administrative Technician",
+    "empresa3": "PROCERGS",
+    "periodo3": "May 2019 — Jun 2022",
+    "desc3_item1": "Administrative management support and budget control",
+    "desc3_item2": "Contract analysis and vendor governance",
+    "desc3_item3": "Management reports and performance indicators development"
+  },
+  "educacao": {
+    "titulo": "Education",
+    "curso1": "Systems Analysis and Development",
+    "instituicao1": "Universidade Estácio de Sá",
+    "periodo1": "2024 — In progress",
+    "andamento": "In progress",
+    "curso2": "Postgraduate in IT Governance",
+    "instituicao2": "UniCEUB",
+    "periodo2": "Completed",
+    "curso3": "Bachelor's in Business Administration",
+    "instituicao3": "UniCEUB",
+    "periodo3": "Completed"
+  },
+  "habilidades": {
+    "titulo": "Skills",
+    "python": {
+      "nome": "Python",
+      "desc": "Beyond ETL: predictive modeling, intelligent automation, web scraping, APIs and production Machine Learning"
+    },
+    "sql": {
+      "nome": "SQL",
+      "desc": "Complex queries, performance optimization, CTEs, window functions and advanced relational modeling"
+    },
+    "powerbi": {
+      "nome": "Power BI",
+      "desc": "Executive dashboards, advanced DAX, semantic modeling and multi-source integration"
+    },
+    "ml": {
+      "nome": "Machine Learning",
+      "desc": "Classification, regression, clustering, model validation and deployment with scikit-learn and XGBoost"
+    },
+    "governanca": {
+      "nome": "IT Governance",
+      "desc": "ITIL, COBIT, regulatory compliance, risk management and security policies"
+    },
+    "admin": {
+      "nome": "Business Administration",
+      "desc": "Strategic management, contract analysis, budget control and performance indicators"
+    }
+  },
+  "projetos": {
+    "titulo": "Projects",
+    "ver_detalhes": "View Details",
+    "projeto1": {
+      "nome": "Diabetes Patient Classification",
+      "resumo": "Machine Learning model to predict diabetes risk based on clinical indicators, using classification techniques and cross-validation.",
+      "tecnologias": "Python, Scikit-learn, Pandas, XGBoost",
+      "titulo_pagina": "Diabetes Patient Classification",
+      "descricao": "This project uses advanced Machine Learning techniques to classify patients by their risk of developing diabetes. Using clinical indicators such as glucose level, BMI, age, and family history, the model identifies patterns that enable early intervention.",
+      "insights_titulo": "Key Insights",
+      "insight1": "Fasting glucose is the strongest predictor for risk classification",
+      "insight2": "Ensemble models (XGBoost) outperformed logistic regression in recall",
+      "insight3": "Balancing techniques (SMOTE) significantly improved positive case detection",
+      "insight4": "Stratified cross-validation ensured robust results",
+      "abordagem_titulo": "Technical Approach",
+      "abordagem": "Complete data science pipeline: exploratory analysis, feature engineering, model comparison (Logistic Regression, Random Forest, XGBoost), hyperparameter tuning with GridSearchCV, and evaluation with classification metrics (Precision, Recall, F1-Score, AUC-ROC).",
+      "github": "View on GitHub"
+    },
+    "projeto2": {
+      "nome": "Credit Analysis",
+      "resumo": "Predictive credit risk analysis combining statistical models with business rules, applying feature engineering and model interpretability.",
+      "tecnologias": "Python, SQL, Power BI, Scikit-learn",
+      "titulo_pagina": "Credit Analysis",
+      "descricao": "Credit risk analysis project that combines predictive models with business rules to assess the probability of default. The solution integrates transactional data with behavioral indicators for a holistic view of risk.",
+      "insights_titulo": "Key Insights",
+      "insight1": "Behavioral variables are more predictive than isolated demographic data",
+      "insight2": "Feature engineering with ratios and interactions increased discriminatory power by 15%",
+      "insight3": "SHAP values ensured transparency in credit decision interpretation",
+      "insight4": "Power BI integration enabled real-time risk indicator monitoring",
+      "abordagem_titulo": "Technical Approach",
+      "abordagem": "Extraction and transformation via advanced SQL, predictive modeling with scikit-learn, feature importance analysis with SHAP, and risk indicator visualization in Power BI dashboards with custom DAX for credit KPIs.",
+      "github": "View on GitHub"
+    }
+  },
+  "contato": {
+    "titulo": "Get in Touch",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "telefone": "Phone",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "idioma": "EN"
+}
