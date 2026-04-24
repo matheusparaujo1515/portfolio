@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <a href="#inicio" className="font-bold text-xl text-pistache">
-              Matheus<span className="text-stone-200 dark:text-stone-300">.data</span>
+              Matheus<span className="text-stone-200 dark:text-stone-300">data</span>
             </a>
             <p className="text-sm text-stone-400 mt-1">
               {t("contato.titulo")}

@@ -32,7 +32,7 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-white/90 dark:bg-stone-900/90 backdrop-blur-md z-50 border-b border-stone-200 dark:border-stone-700">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <a href="#inicio" className="font-bold text-pistache-dark text-lg">
-          Matheus<span className="text-stone-700 dark:text-stone-200">.data</span>
+          Matheus<span className="text-stone-700 dark:text-stone-200">data</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-6">
