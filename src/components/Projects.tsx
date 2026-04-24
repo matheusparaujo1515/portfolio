@@ -22,7 +22,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projetos" className="py-20 bg-white dark:bg-stone-900">
+    <section id="projetos" className="py-20 bg-stone-50 dark:bg-stone-900 transition-colors">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-stone-900 dark:text-stone-50 mb-12 text-center">
           {t("projetos.titulo")}
@@ -31,10 +31,10 @@ export default function Projects() {
           {projects.map((proj) => (
             <div
               key={proj.key}
-              className="bg-stone-50 dark:bg-stone-800 rounded-xl overflow-hidden border border-stone-100 dark:border-stone-700 hover:shadow-lg transition-shadow group"
+              className="bg-white dark:bg-stone-800 rounded-xl overflow-hidden border border-stone-200 dark:border-stone-700 hover:shadow-lg transition-all group"
             >
               {/* Container da Arte Dinâmica */}
-              <div className="relative h-48 flex items-center justify-center bg-stone-100/50 dark:bg-stone-700/50 overflow-hidden transition-colors duration-300">
+              <div className="relative h-48 flex items-center justify-center bg-stone-50 dark:bg-stone-700/50 overflow-hidden transition-colors duration-300">
                 <div className="w-full h-full flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
                   {proj.key === "projeto1" ? (
                     <DnaGraphic />
@@ -55,7 +55,7 @@ export default function Projects() {
                   {proj.tech.split(", ").map((tech) => (
                     <span
                       key={tech}
-                      className="px-3 py-1 text-xs font-medium bg-pistache/10 text-pistache-dark dark:text-pistache-light rounded-full"
+                      className="px-3 py-1 text-xs font-medium bg-[#8ebc83]/10 text-[#8ebc83] rounded-full"
                     >
                       {tech}
                     </span>
@@ -63,7 +63,7 @@ export default function Projects() {
                 </div>
                 <Link
                   href={proj.href}
-                  className="inline-flex items-center gap-1 text-sm font-medium text-pistache-dark dark:text-pistache-light hover:gap-2 transition-all"
+                  className="inline-flex items-center gap-1 text-sm font-bold text-[#8ebc83] hover:gap-2 transition-all"
                 >
                   {t("projetos.ver_mais")}
                   <FiArrowRight size={14} />

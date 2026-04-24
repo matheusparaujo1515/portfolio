@@ -17,9 +17,9 @@ export default function Skills() {
   ];
 
   return (
-    <section id="habilidades" className="py-20 bg-stone-50 dark:bg-stone-950">
+    <section id="habilidades" className="py-20 bg-white dark:bg-stone-950 transition-colors">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-stone-900 dark:text-stone-50 mb-12 text-center">
+        <h2 className="text-3xl font-bold text-stone-950 dark:text-stone-50 mb-12 text-center">
           {t("habilidades.titulo")}
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -28,10 +28,12 @@ export default function Skills() {
             return (
               <div
                 key={skill.key}
-                className="bg-white dark:bg-stone-800 rounded-xl p-6 shadow-sm border border-stone-100 dark:border-stone-700 hover:shadow-md hover:border-pistache/30 transition-all"
+                className="bg-stone-50 dark:bg-stone-900 rounded-xl p-6 shadow-sm border border-stone-100 dark:border-stone-800 hover:shadow-md hover:border-[#8ebc83]/40 transition-all group"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <Icon size={24} className={skill.color} />
+                  <div className="p-2 rounded-lg bg-white dark:bg-stone-800 group-hover:scale-110 transition-transform">
+                    <Icon size={24} className={skill.color} />
+                  </div>
                   <h3 className="font-semibold text-stone-900 dark:text-stone-100">
                     {t(`habilidades.${skill.key}.nome`)}
                   </h3>

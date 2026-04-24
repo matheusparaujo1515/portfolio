@@ -56,6 +56,26 @@
     "instituicao3": "UniCEUB",
     "periodo3": "Completed"
   },
+  "certificacoes": {
+    "titulo": "Courses & Certifications",
+    "itens": {
+      "sc900": {
+        "titulo": "Microsoft Security, Compliance, and Identity Fundamentals (SC-900)",
+        "emissor": "Microsoft",
+        "data": "2026"
+      },
+      "ai300": {
+        "titulo": "Microsoft Azure AI Fundamentals (AI-300)",
+        "emissor": "Microsoft",
+        "data": "2026"
+      },
+      "aws": {
+        "titulo": "AWS Academy Cloud Foundations",
+        "emissor": "AWS Academy",
+        "data": "2025"
+      }
+    }
+  },
   "habilidades": {
     "titulo": "Skills",
     "python": {
@@ -86,6 +106,7 @@
   "projetos": {
     "titulo": "Projects",
     "ver_detalhes": "View Details",
+    "ver_mais": "View more",
     "projeto1": {
       "nome": "Diabetes Patient Classification",
       "resumo": "Machine Learning model to predict diabetes risk based on clinical indicators, using classification techniques and cross-validation.",

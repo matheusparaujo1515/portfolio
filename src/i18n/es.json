@@ -32,7 +32,7 @@
     "cargo2": "Analista de Gobernanza de TI",
     "empresa2": "PROCERGS",
     "periodo2": "Jun 2022 — Feb 2024",
-    "desc2_item1": "Gestión de procesos de TI alineados con frameworks ITIL y COBIT",
+    "desc2_item1": "Gestão de procesos de TI alinhados con frameworks ITIL y COBIT",
     "desc2_item2": "Desarrollo de políticas de seguridad de la información y cumplimiento",
     "desc2_item3": "Coordinación de auditorías internas y gestión de riesgos corporativos",
     "desc2_item4": "Mapeo y optimización de procesos operacionales",
@@ -55,6 +55,26 @@
     "curso3": "Licenciatura en Administración",
     "instituicao3": "UniCEUB",
     "periodo3": "Completado"
+  },
+  "certificacoes": {
+    "titulo": "Cursos y Certificaciones",
+    "itens": {
+      "sc900": {
+        "titulo": "Microsoft Security, Compliance, and Identity Fundamentals (SC-900)",
+        "emissor": "Microsoft",
+        "data": "2026"
+      },
+      "ai300": {
+        "titulo": "Microsoft Azure AI Fundamentals (AI-300)",
+        "emissor": "Microsoft",
+        "data": "2026"
+      },
+      "aws": {
+        "titulo": "AWS Academy Cloud Foundations",
+        "emissor": "AWS Academy",
+        "data": "2025"
+      }
+    }
   },
   "habilidades": {
     "titulo": "Habilidades",
@@ -86,6 +106,7 @@
   "projetos": {
     "titulo": "Proyectos",
     "ver_detalhes": "Ver Detalles",
+    "ver_mais": "Ver más",
     "projeto1": {
       "nome": "Clasificación de Pacientes con Diabetes",
       "resumo": "Modelo de Machine Learning para predecir el riesgo de diabetes basado en indicadores clínicos, utilizando técnicas de clasificación y validación cruzada.",

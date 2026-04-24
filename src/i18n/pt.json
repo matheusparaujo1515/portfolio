@@ -56,6 +56,26 @@
     "instituicao3": "UniCEUB",
     "periodo3": "Concluído"
   },
+  "certificacoes": {
+    "titulo": "Cursos e Certificações",
+    "itens": {
+      "sc900": {
+        "titulo": "Microsoft Security, Compliance, and Identity Fundamentals (SC-900)",
+        "emissor": "Microsoft",
+        "data": "2026"
+      },
+      "ai300": {
+        "titulo": "Microsoft Azure AI Fundamentals (AI-300)",
+        "emissor": "Microsoft",
+        "data": "2026"
+      },
+      "aws": {
+        "titulo": "AWS Academy Cloud Foundations",
+        "emissor": "AWS Academy",
+        "data": "2025"
+      }
+    }
+  },
   "habilidades": {
     "titulo": "Habilidades",
     "python": {
@@ -86,6 +106,7 @@
   "projetos": {
     "titulo": "Projetos",
     "ver_detalhes": "Ver Detalhes",
+    "ver_mais": "Ver mais",
     "projeto1": {
       "nome": "Classificação de Pacientes com Diabetes",
       "resumo": "Modelo de Machine Learning para prever o risco de diabetes com base em indicadores clínicos, utilizando técnicas de classificação e validação cruzada.",
