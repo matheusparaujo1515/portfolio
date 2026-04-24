@@ -22,16 +22,16 @@ export default function Certifications() {
         <h2 className="text-3xl font-bold text-stone-900 dark:text-stone-50 mb-12 text-center">
           {t("certificacoes.titulo", { defaultValue: "Cursos e Certificações" })}
         </h2>
-        
+
         <div className="grid md:grid-cols-2 gap-6">
           {certs.map((cert) => {
             const hasLink = cert.link.length > 0;
             const CardWrapper = hasLink ? 'a' : 'div';
             const wrapperProps = hasLink ? { href: cert.link, target: "_blank", rel: "noopener noreferrer" } : {};
-            
+
             return (
-              <CardWrapper 
-                key={cert.key} 
+              <CardWrapper
+                key={cert.key}
                 {...wrapperProps}
                 className="flex items-start gap-4 p-6 bg-stone-50 dark:bg-stone-900 rounded-xl border border-stone-200 dark:border-stone-800 hover:border-[#8ebc83] dark:hover:border-[#8ebc83] hover:shadow-lg transition-all group"
               >
