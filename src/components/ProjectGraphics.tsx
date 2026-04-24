@@ -30,7 +30,7 @@ export const CreditGraphic = () => (
 export const VisionGraphic = () => (
   <svg viewBox="0 0 100 100" className="w-24 h-24">
     <g>
-      <animateTransform attributeName="transform" type="scale" values="0.95; 1.05; 0.95" dur="4s" repeatCount="indefinite" transformOrigin="50 50" />
+      <animateTransform attributeName="transform" type="scale" values="0.95; 1.05; 0.95" dur="4s" repeatCount="indefinite" style={{ transformOrigin: "50px 50px" }} />
       <rect x="20" y="20" width="60" height="60" fill="none" stroke="#8ebc83" strokeWidth="2" strokeDasharray="5,5">
         <animate attributeName="stroke-dashoffset" values="0; 20" dur="2s" repeatCount="indefinite" />
       </rect>

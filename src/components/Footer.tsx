@@ -8,8 +8,8 @@ const CONTACT = {
   email: "matheus.araujo.data@outlook.com",
   whatsapp: "https://wa.me/5561982399701",
   phone: "tel:+5561982399701",
-  linkedin: "https://linkedin.com/in/matheusaraujodata",
-  github: "https://github.com/matheusaraujodata",
+  linkedin: "https://www.linkedin.com/in/matheus-p-araujo/",
+  github: "https://github.com/matheusparaujo1515",
 };
 
 export default function Footer() {
