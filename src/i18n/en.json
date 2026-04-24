@@ -107,6 +107,8 @@
     "titulo": "Projects",
     "ver_detalhes": "View Details",
     "ver_mais": "View more",
+    "insights": "Key Insights",
+    "voltar": "Back",
     "projeto1": {
       "nome": "Diabetes Patient Classification",
       "resumo": "Machine Learning model to predict diabetes risk based on clinical indicators, using classification techniques and cross-validation.",

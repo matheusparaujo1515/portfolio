@@ -107,6 +107,8 @@
     "titulo": "Proyectos",
     "ver_detalhes": "Ver Detalles",
     "ver_mais": "Ver más",
+    "insights": "Insights Principales",
+    "voltar": "Volver",
     "projeto1": {
       "nome": "Clasificación de Pacientes con Diabetes",
       "resumo": "Modelo de Machine Learning para predecir el riesgo de diabetes basado en indicadores clínicos, utilizando técnicas de clasificación y validación cruzada.",

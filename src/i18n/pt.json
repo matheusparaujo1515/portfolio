@@ -107,6 +107,8 @@
     "titulo": "Projetos",
     "ver_detalhes": "Ver Detalhes",
     "ver_mais": "Ver mais",
+    "insights": "Insights Principais",
+    "voltar": "Voltar",
     "projeto1": {
       "nome": "Classificação de Pacientes com Diabetes",
       "resumo": "Modelo de Machine Learning para prever o risco de diabetes com base em indicadores clínicos, utilizando técnicas de classificação e validação cruzada.",
@@ -114,10 +116,12 @@
       "titulo_pagina": "Classificação de Pacientes com Diabetes",
       "descricao": "Este projeto utiliza técnicas avançadas de Machine Learning para classificar pacientes quanto ao risco de desenvolver diabetes. A partir de indicadores clínicos como nível de glicose, IMC, idade e histórico familiar, o modelo identifica padrões que permitem uma intervenção precoce.",
       "insights_titulo": "Insights Principais",
+      "insights": "Insights Principais",
       "insight1": "A glicose em jejum é o preditor mais forte para classificação de risco",
       "insight2": "Modelos ensemble (XGBoost) superaram regressão logística em recall",
       "insight3": "Técnicas de balanceamento (SMOTE) melhoraram significativamente a detecção de positivos",
       "insight4": "Validação cruzada estratificada garantiu robustez nos resultados",
+      "voltar": "Voltar",
       "abordagem_titulo": "Abordagem Técnica",
       "abordagem": "Pipeline completo de ciência de dados: análise exploratória, engenharia de features, comparação de modelos (Logistic Regression, Random Forest, XGBoost), otimização de hiperparâmetros com GridSearchCV e avaliação com métricas de classificação (Precision, Recall, F1-Score, AUC-ROC).",
       "github": "Ver no GitHub"
