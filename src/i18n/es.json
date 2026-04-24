@@ -10,14 +10,14 @@
   "hero": {
     "saudacao": "Hola, soy",
     "nome": "Matheus Araújo",
-    "titulo": "Profesional de Datos | Administrador | Futuro Analista de Sistemas",
-    "subtitulo": "Uniendo visión estratégica de negocios con precisión técnica en Ciencia de Datos y Gobernanza de TI."
+    "titulo": "Científico de Datos | Python | Machine Learning | SQL | Power BI | AWS",
+    "subtitulo": "Uniendo visión estratégica de negocios con precisión técnica en Ciencia de Datos y Analytics."
   },
   "sobre": {
     "titulo": "Sobre Mí",
-    "paragrafo1": "Soy un profesional que combina una sólida formación en Administración con especialización en Gobernanza de TI y una graduación en curso en Análisis y Desarrollo de Sistemas. Mi trayectoria única me permite traducir desafíos de negocio en soluciones técnicas eficaces.",
-    "paragrafo2": "Con actuación en gestión estratégica, cumplimiento regulatorio y análisis de datos, desarrollé expertise en Python y SQL — yendo mucho más allá de procesos de ETL tradicionales — además de Power BI para visualización ejecutiva y Machine Learning para modelado predictivo.",
-    "paragrafo3": "Mi enfoque está orientado a resultados: utilizo datos como activo estratégico, conectando análisis técnico a la toma de decisiones corporativas."
+    "paragrafo1": "Soy Científico de Datos y combino una visión estratégica de negocios con precisión técnica en tecnología. Soy graduado en Administración, tengo un posgrado en Gobernanza de TI y actualmente estudio Análisis y Desarrollo de Sistemas.",
+    "paragrafo2": "Con formación complementaria en Ciencia de Datos, concluida en 2024, utilizo mi experiencia multidisciplinaria en los sectores bancario, sanitario y tecnológico para transformar datos complejos en soluciones analíticas que generan valor real.",
+    "paragrafo3": "Mi experiencia incluye Python, SQL, NoSQL con MongoDB, Power BI, Tableau, Excel, análisis exploratorio de datos, desarrollo de modelos de Machine Learning y creación de dashboards estratégicos para apoyar la toma de decisiones basada en datos."
   },
   "experiencia": {
     "titulo": "Experiencia Profesional",

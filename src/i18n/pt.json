@@ -10,14 +10,14 @@
   "hero": {
     "saudacao": "Olá, eu sou",
     "nome": "Matheus Araújo",
-    "titulo": "Profissional de Dados | Administrador | Futuro Analista de Sistemas",
-    "subtitulo": "Unindo visão estratégica de negócios à precisão técnica em Ciência de Dados e Governança de TI."
+    "titulo": "Cientista de Dados | Python | Machine Learning | SQL | Power BI | AWS",
+    "subtitulo": "Unindo visão estratégica de negócios à precisão técnica em Ciência de Dados e Analytics."
   },
   "sobre": {
     "titulo": "Sobre Mim",
-    "paragrafo1": "Sou um profissional que combina uma sólida formação em Administração com especialização em Governança de TI e uma graduação em andamento em Análise e Desenvolvimento de Sistemas. Minha trajetória única me permite traduzir desafios de negócio em soluções técnicas eficazes.",
-    "paragrafo2": "Com atuação em gestão estratégica, compliance regulatório e análise de dados, desenvolvi expertise em Python e SQL — indo muito além de processos de ETL tradicionais — além de Power BI para visualização executiva e Machine Learning para modelagem preditiva.",
-    "paragrafo3": "Minha abordagem é orientada a resultados: utilizo dados como ativo estratégico, conectando análise técnica à tomada de decisão corporativa."
+    "paragrafo1": "Sou um Cientista de Dados que combina visão estratégica de negócios com precisão técnica em tecnologia. Sou graduado em Administração, pós-graduado em Governança de TI e atualmente curso Análise e Desenvolvimento de Sistemas.",
+    "paragrafo2": "Com formação complementar em Ciência de Dados, concluída em 2024, utilizo minha experiência multidisciplinar nos setores bancário, de saúde e tecnologia para transformar dados complexos em soluções analíticas que geram valor real.",
+    "paragrafo3": "Minha expertise inclui Python, SQL, NoSQL com MongoDB, Power BI, Tableau, Excel, análise exploratória de dados, desenvolvimento de modelos de Machine Learning e criação de dashboards estratégicos para apoiar a tomada de decisão baseada em dados."
   },
   "experiencia": {
     "titulo": "Experiência Profissional",

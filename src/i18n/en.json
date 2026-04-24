@@ -10,14 +10,14 @@
   "hero": {
     "saudacao": "Hi, I'm",
     "nome": "Matheus Araújo",
-    "titulo": "Data Professional | Administrator | Future Systems Analyst",
-    "subtitulo": "Bridging strategic business vision with technical precision in Data Science and IT Governance."
+    "titulo": "Data Scientist | Python | Machine Learning | SQL | Power BI | AWS",
+    "subtitulo": "Bridging strategic business vision with technical precision in Data Science and Analytics."
   },
   "sobre": {
     "titulo": "About Me",
-    "paragrafo1": "I'm a professional who combines a solid background in Business Administration with specialization in IT Governance and an ongoing degree in Systems Analysis and Development. My unique trajectory allows me to translate business challenges into effective technical solutions.",
-    "paragrafo2": "With experience in strategic management, regulatory compliance, and data analysis, I've developed expertise in Python and SQL — going far beyond traditional ETL processes — as well as Power BI for executive visualization and Machine Learning for predictive modeling.",
-    "paragrafo3": "My approach is results-oriented: I use data as a strategic asset, connecting technical analysis to corporate decision-making."
+    "paragrafo1": "I am a Data Scientist who combines a strategic business perspective with technical precision in technology. I hold a degree in Business Administration, a postgraduate degree in IT Governance, and I am currently pursuing a degree in Systems Analysis and Development.",
+    "paragrafo2": "With complementary training in Data Science, completed in 2024, I leverage my multidisciplinary experience across the banking, healthcare, and technology sectors to transform complex data into analytical solutions that generate real value.",
+    "paragrafo3": "My expertise includes Python, SQL, NoSQL with MongoDB, Power BI, Tableau, Excel, exploratory data analysis, Machine Learning model development, and the creation of strategic dashboards to support data-driven decision-making."
   },
   "experiencia": {
     "titulo": "Professional Experience",
