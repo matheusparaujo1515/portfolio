@@ -19,7 +19,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="habilidades" className="py-20 bg-white dark:bg-stone-950 transition-colors">
+    <section id="habilidades" className="py-20 bg-white dark:bg-stone-900 transition-colors">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-stone-950 dark:text-stone-50 mb-12 text-center">
           {t("habilidades.titulo")}

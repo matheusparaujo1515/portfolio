@@ -27,7 +27,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projetos" className="py-20 bg-stone-50 dark:bg-stone-900 transition-colors">
+    <section id="projetos" className="py-20 bg-stone-50 dark:bg-stone-950 transition-colors">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-stone-900 dark:text-stone-50 mb-12 text-center">
           {t("projetos.titulo")}

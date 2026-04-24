@@ -1,14 +1,15 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
+import ReactCountryFlag from "react-country-flag";
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
 
   const langs = [
-    { code: "pt", label: "PT" },
-    { code: "en", label: "EN" },
-    { code: "es", label: "ES" },
+    { code: "pt", label: "PT", countryCode: "BR" },
+    { code: "en", label: "EN", countryCode: "US" },
+    { code: "es", label: "ES", countryCode: "ES" },
   ];
 
   return (
@@ -17,13 +18,23 @@ export default function LanguageSwitcher() {
         <button
           key={lang.code}
           onClick={() => i18n.changeLanguage(lang.code)}
-          className={`px-2 py-1 text-xs font-semibold rounded transition-colors ${
+          className={`flex flex-col items-center justify-center w-10 h-10 rounded transition-colors ${
             i18n.language?.startsWith(lang.code)
               ? "bg-pistache text-white"
               : "text-stone-500 dark:text-stone-400 hover:text-pistache-dark dark:hover:text-pistache-light hover:bg-stone-100 dark:hover:bg-stone-700"
           }`}
         >
-          {lang.label}
+          <ReactCountryFlag
+            countryCode={lang.countryCode}
+            svg
+            style={{
+              width: "1.2em",
+              height: "1.2em",
+              borderRadius: "2px",
+            }}
+            className="mb-0.5 shadow-sm"
+          />
+          <span className="text-[10px] font-bold leading-none">{lang.label}</span>
         </button>
       ))}
     </div>
