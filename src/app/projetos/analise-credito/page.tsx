@@ -83,7 +83,7 @@ export default function AnaliseCredito() {
 
             <div className="flex gap-4">
               <a
-                href="https://github.com/matheusparaujo1515"
+                href="https://github.com/matheusparaujo1515/EBAC-Data-Science/tree/main/Mod01"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-pistache text-white rounded-lg hover:bg-pistache-dark transition-colors font-medium"
